@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="z-depth-2">
+            <div class="row" id="header1">
+                <h2>TicTacToe</h2>
+                <p> Wanna play the classic Tic Tac Toe with style? Well... Now you have the opportunity!</p>
+                <p>You can choose to battle the AI or a similar human like yourself ( assuming you are a human ).
+                </p>
+            </div>
+            <div class="row buttonsP">
+                <div class='buttons'>
+                    <a class="waves-effect waves-light btn" id="1v1">Let's play!</a>
+                    <a class="waves-effect waves-light btn" id="AI">AI</a>
+                </div>
+            </div>
+            <div class="row">
+                <div id="board"></div>
+            </div>
+            <div class="row">
+                <p id="tradeM"> Done by Cosmin Serboteiu</p>
+            </div>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-light btn ans">Nah</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-light btn ans">Hell yeah!</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
